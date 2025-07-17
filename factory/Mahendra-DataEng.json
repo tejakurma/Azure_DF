@@ -1,0 +1,9 @@
+{
+	"name": "Mahendra-DataEng",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8bfe263f-c7a7-4135-b1dd-198e1b2ce612",
+		"tenantId": "0b565e92-37e3-4706-84aa-3d1f406aa14d"
+	}
+}

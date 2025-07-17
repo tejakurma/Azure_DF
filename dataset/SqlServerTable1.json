@@ -1,0 +1,27 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LocalServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "SLN",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name_Grp",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sample_load"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

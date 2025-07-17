@@ -1,0 +1,21 @@
+{
+	"name": "LocalServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DELL",
+			"database": "master",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "Windows",
+			"userName": "DELL\\2025",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmZjQ1MGU3Mi0yMjA0LTRiNjgtYjJkZS1jNjlhMjQ4ZjA5OGMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "LocalSQLRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
